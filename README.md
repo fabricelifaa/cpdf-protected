@@ -21,9 +21,9 @@ create_pdf($html, $filename, $password)
 
 <b>$password</b> est une chaine de caractère de 8 caractère minimum et est requis
 
-Si le pdf est créée avec succès la fonction renvoie un array contenant:
-<b>path</b> le chemin absolu menant vers le fichier;
-<b>filename</b> le nom du fichier suis de son extension;
+Si le pdf est créée avec succès la fonction renvoie un array contenant:</br>
+<b>path</b> le chemin absolu menant vers le fichier;</br>
+<b>filename</b> le nom du fichier suis de son extension;</br>
 
 Si l'operation à échoué la fonction renvoie false 
 
