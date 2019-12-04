@@ -1,0 +1,38 @@
+
+
+-- Description --
+
+Créer vos fichier pdf sécurisez par un mot passe que vous aurez définir.
+
+
+-- Utilisation --
+
+Pour créer un pdf utilisé la fonction 'create_pdf' du plugin
+
+create_pdf($html, $filename, $password)
+
+`$html` est une chaine de caractère et est requis;
+
+`$filename` est une chaine de caractère et est requis;
+
+`$password` est une chaine de caractère de 8 caractère minimum et est requis
+
+Si le pdf est créée avec succès la fonction renvoie un array contenant:
+`path` le chemin absolu menant vers le fichier;
+`filename` le nom du fichier suis de son extension;
+
+Si l'operation à échoué la fonction renvoie false 
+
+Les fichiers pdf créée son stocker dans le dossier output du plugin
+
+
+-- Exemple --
+
+
+$html = "<h1 style="color: red;">Hello World</h1>";
+$pass = "password";
+$filename = "test";
+
+$result = create_pdf($html, $filename, $pass);
+
+
