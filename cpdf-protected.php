@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cpdf protected
 Description: Créer un pdf codé avec un mot de passe 
-Author: Kamgoko
+Author: Fabricelifaa / kamgoko
 Author URI:  https://kamgoko.tech
 Version: 0.1
 */
